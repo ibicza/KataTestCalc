@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class CalcExeption {
+class CalcExeption extends Exception{
+    CalcExeption(){
+        super("trows Exeption");
+    }
 }
